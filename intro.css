@@ -1,12 +1,63 @@
 body {
     background-color: lightblue;
 }
-h2 {
+h1,h2 {
     text-align: center;
-    color: red;
+    color: black;
+font-family: "Cambria";
 }
 
 p {
     text-align: center;
-    color: red;
+    color: black;
+font-family: "Cambria";
 }
+
+ul	{
+	font-family: "Cambria";
+    font-size: 15px;
+    color: purple;
+    list-style-type: none;
+    overflow: hidden;
+}
+.nav ul {
+  list-style: none;
+  background-color: #5a00e1;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Cambria', sans-serif;
+  font-size: 1.2em;
+  height: 40px;
+  border-bottom: 1px solid #888;
+    display: inline-block;
+    margin-right: -4px;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #00b4d2;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #8695b4;
+}
+ 
+.nav a.active {
+  background-color: #dae0e6;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
